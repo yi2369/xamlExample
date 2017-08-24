@@ -82,5 +82,10 @@ namespace uwpApp2
         {
             this.Frame.Navigate(typeof(MarkupPage));
         }
+
+        private void dp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DependencyPropertyPage));
+        }
     }
 }

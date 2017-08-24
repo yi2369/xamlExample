@@ -9,7 +9,11 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Height="40" Width="100" Margin="10" Content="Dependency Property">
-            
+            <Button.Style>
+                <Style TargetType="Button">
+                    
+                </Style>
+            </Button.Style>
         </Button>
 
     </Grid>
