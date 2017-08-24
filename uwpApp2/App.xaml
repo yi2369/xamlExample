@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="uwpApp2.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:uwpApp2"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary Source="ResourceDictionaries\DictionaryWithBrush.xaml"></ResourceDictionary>
+    </Application.Resources>
+
+</Application>

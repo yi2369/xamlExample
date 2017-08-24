@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="uwpApp2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:uwpApp2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="stackPanel" Orientation="Vertical">
+
+            <Button x:Name="button2" Content="hello world" Click="Button_Click" ClickMode="Release" HorizontalAlignment="Center" Width="60" Height="30"></Button>
+            <TextBlock x:Name="txt" Width="100" Height="20"></TextBlock>
+            <TextBlock x:Name="txb" Width="100" Height="20"></TextBlock>
+            <Button x:Name = "button1"  
+            Content = "Hover" 
+            Click = "OnClick1" 
+            ClickMode = "Hover" 
+            Margin = "10"  
+            Width = "150" 
+            Height="30"
+            HorizontalAlignment = "Center" 
+            Foreground = "Gray"/>
+            <Button x:Name = "layouts" Content = "layouts" 
+                Click = "layouts_Click"             ClickMode = "Release" 
+                Margin = "10" Width = "150" Height="30"
+                HorizontalAlignment = "Center" Foreground = "Gray"></Button>
+            <Button x:Name = "binding1" Content = "binding1" 
+                Click = "binding_Click" ClickMode = "Release" 
+                Margin = "10" Width = "150" Height="30"
+                HorizontalAlignment = "Center" Foreground = "Gray"/>
+            <Button x:Name = "binding2" Content = "binding2" 
+                Click = "binding2_Click" ClickMode = "Release" 
+                Margin = "10" Width = "150" Height="30"
+                HorizontalAlignment = "Center" Foreground = "Gray"/>
+            <Button x:Name = "markup" Content = "Markup" 
+                Click = "markup_Click" ClickMode = "Release" 
+                Margin = "10" Width = "150" Height="30"
+                HorizontalAlignment = "Center" Foreground = "Gray"/>
+            
+        </StackPanel>
+    </Grid>
+</Page>
